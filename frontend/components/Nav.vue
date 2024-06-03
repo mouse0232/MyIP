@@ -62,6 +62,7 @@
           <!-- <div><i class="bi bi-github"></i></div> -->
           <div class="row flex-column ">
             <TransitionGroup name="slide-fade">
+              <span key="default" class="col-12 jn-w" v-if="githubStars === 0">&nbsp;VPS测评</span>
               <!-- <span key="stars" class="col-12 jn-w" v-if="githubStars > 0">
                &nbsp;{{ githubStars }}
               <i class="bi bi-star-fill" :class="[isDarkMode ? 'redstar' : 'yellowstar']"></i> 
