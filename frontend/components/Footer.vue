@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div id="copyleft">
+    <!-- <div id="copyleft">
       <p class="text-center">{{ t('page.footerName') }} <a :href="t('page.footerLink')" class="link-dark"
           target="_blank" @click="trackEvent('Footer', 'FooterClick', 'Github');" aria-label="Github"><i
             class="bi bi-github" :class="{ 'dark-mode': isDarkMode }"
@@ -13,7 +13,7 @@
         role="button" aria-controls="About" @click.prevent="openAbout">
         {{ t('about.Title') }} <i class="bi bi-arrow-left-circle-fill"></i>
       </a>
-    </div>
+    </div> -->
 
 
     <div class="offcanvas offcanvas-end mt-5 border-0 h-100" :class="[isMobile ? ' w-100' : '']" tabindex="-1"
